@@ -90,11 +90,13 @@ h2 {
      .orange {
         border-bottom-left-radius: 10px;
         border-top-left-radius: 10px;
+        border-top-right-radius: none;
     }
 
     .Dcyan {
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
+        border-bottom-left-radius: none;
     }
 
     .btn {
