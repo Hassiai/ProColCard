@@ -5,6 +5,7 @@
 }
 
 body {
+     background: hsl(0, 0%, 95%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +37,8 @@ h2 {
 
 .orange {
     background: hsl(31, 77%, 52%);
+      border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 
 }
 
@@ -45,6 +48,8 @@ h2 {
 
 .Dcyan {
     background: hsl(179, 100%, 13%);
+     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .btn {
@@ -76,11 +81,20 @@ h2 {
 @media (min-width: 800px) {
     .container {
         width: 55vw;
-        height: 60vh;
+       
     }
 
     .row {
         display: flex;
+    }
+     .orange {
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .Dcyan {
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
     .btn {
